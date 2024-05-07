@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body
+    {
+        background-color: beige;        
+    }
+h1#principal    
+    {
+        font: italic bolder 3.5em arial, sans serif;
+        color: rgb(0, 85, 110);
+        text-align: center;
+        background-color: rgb(246, 219, 183);
+    }
+.titulo1
+    {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(8, 60, 76);
+        text-align: center;
+        font-size: 3em;
+        
+    }
+h2
+    {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 2em;
+        color: white;
+    }    
+.bascio
+    {
+        background-color: rgb(168, 168, 10);
+        text-align: left;
+    }
+.intermediario
+    {
+        background-color: rgb(60, 60, 192);   
+        text-align: center;
+    }
+.avancado
+    {
+        background-color: rgb(10, 150, 57);  
+        text-align: right;      
+    }
