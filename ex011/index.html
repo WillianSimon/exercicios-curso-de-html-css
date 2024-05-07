@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinânima</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <source media="(max-width: 2050px )" srcset="Imagens/foto-g.png" type="image/png">
+        <source media="(max-width: 2050px )" srcset="Imagens/foto-g.png" type="image/png">
+        <img src="Imagens/foto-xxg.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos parender a reproduzir áudios em HTML5.</p>
+    <audio src="media/Ao nosso Deus.mp3" controls autoplay></audio>
+
+
+</body>
+</html>
