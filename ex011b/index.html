@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Testando por conta própria as imagens dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <source media="(max-width: 2000px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(max-width:2250px)" srcset="imagens/foto-xg.png" type="image/png">
+            <img src="imagens/foto-xxg.png" alt="imagem flexível">
+    </picture>
+
+</body>
+</html>
