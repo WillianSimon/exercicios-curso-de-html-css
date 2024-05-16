@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 30px;
+            padding: 30px;
+            
+        }
+        
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgba(137, 43, 226, 0.315);
+        }
+        th{
+            border: 1px solid black;
+            background-color: rgba(179, 179, 179, 0.47);
+            padding: 30px;
+        }
+        thead > tr > th{
+          position: sticky;
+          top: -1px;
+          background-color: gray;
+           
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            width: 100px;
+            height: 20px;
+            padding: 20px;
+        }
+        .população{
+            text-align: right;
+            padding-right: 10px;
+        }
+       
+        thead, tfoot{
+            background-color: gray;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <!--
+        Anatomia para tabelas Grandes
+
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+<table>
+    <caption>População das Unidades Federativas <hr></caption>
+    
+    <thead>
+        <tr>
+            <th scope="col">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>São Paulo</td>
+            <td class="população">44 411 238</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Minas Gerais</td>
+            <td class="população">20 538 718</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rio de Janeiro</td>
+            <td class="população">17 264 943</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bahia</td>
+            <td class="população">14 873 064</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Paraná</td>
+            <td class="população">11 433 957</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Rio Grande do Sul</td>
+            <td class="população">20 538 718</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Pernambuco</td>
+            <td class="população">9 058 931</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Ceará</td>
+            <td class="população">8 794 957</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Pará</td>
+            <td class="população">8 121 025</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Santa Catarina</td>
+            <td class="população">7 610 361</td>
+        </tr>
+        <td>1</td>
+            <td>São Paulo</td>
+            <td class="população">44 411 238</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Minas Gerais</td>
+            <td class="população">20 538 718</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rio de Janeiro</td>
+            <td class="população">17 264 943</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bahia</td>
+            <td class="população">14 873 064</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Paraná</td>
+            <td class="população">11 433 957</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Rio Grande do Sul</td>
+            <td class="população">20 538 718</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Pernambuco</td>
+            <td class="população">9 058 931</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Ceará</td>
+            <td class="população">8 794 957</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Pará</td>
+            <td class="população">8 121 025</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Santa Catarina</td>
+            <td class="população">7 610 361</td>
+        </tr>
+        
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">Total de Habitantes</th>
+            <td>-></td>
+            <td class="população"><strong>144 161 065</strong></td>
+        </tr>
+    </tfoot>
+</table>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati accusamus facere delectus tenetur quaerat placeat ratione quis, repellendus odio natus, officia excepturi possimus quo incidunt est vel eveniet quasi cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam temporibus dolorum est voluptatibus soluta alias consequuntur, commodi perspiciatis, enim recusandae laborum accusamus reiciendis et beatae. Mollitia, id iure. Sapiente, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore necessitatibus commodi, doloremque libero molestias itaque ipsa? Dolorum nobis perferendis pariatur sed deleniti, placeat officia ea alias dicta, in, temporibus dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam voluptates, nam nisi rerum est impedit officia, nobis totam eum suscipit cum quis quidem minus similique, ut debitis blanditiis vitae!</p>
+</body>
+</html>
