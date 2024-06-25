@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itelefone">Telefone</label>
+                <input type="tel" name="telefone" id="itelefone" required autocomplete="tel">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Excluir">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
