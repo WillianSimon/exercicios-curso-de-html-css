@@ -3,5 +3,6 @@
 /*Aparelho em modo retrato*/
 
 body{
-    background-color: darkgreen;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
